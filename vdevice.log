@@ -1,0 +1,259 @@
+ts=2022-03-01T15:05:25.04065671Z level=info caller=enroll.go:31 msg="Enrolling... " with=Lamassu-Root-CA1-RSA4096,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T15:05:26.590287895Z level=info caller=estclient.go:133 msg=Lamassu-Root-CA1-RSA4096
+ts=2022-03-01T15:05:26.676837225Z level=error caller=enroll.go:72 err="failed to execute HTTP request: Response with status code: 500"
+ts=2022-03-01T15:05:49.280630303Z level=info caller=enroll.go:31 msg="Enrolling... " with=Lamassu-Root-CA1-RSA4096,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T15:05:51.342534182Z level=info caller=estclient.go:133 msg=Lamassu-Root-CA1-RSA4096
+ts=2022-03-01T15:05:51.411757205Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-01T15:05:51.41179559Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-01T15:05:51.412025571Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-01T15:05:51.412221577Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-01T15:05:51.412263104Z level=info caller=enroll.go:80 msg="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=LKS Next Root CA 1,O=S. Coop+O=LKS Next,L=Arrasate,ST=Gipuzkoa,C=ES"
+ts=2022-03-01T15:05:56.299383422Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T15:05:56.841397839Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-01T15:07:18.313777284Z level=info caller=enroll.go:31 msg="Enrolling... " with=markelcademo2,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T15:07:20.302974835Z level=info caller=estclient.go:133 msg=markelcademo2
+ts=2022-03-01T15:07:20.366556491Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-01T15:07:20.366613827Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-01T15:07:20.366858288Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-01T15:07:20.367112026Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-01T15:07:20.367180639Z level=info caller=enroll.go:80 msg="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=markelcademo2,O=markelcademo2,L=markelcademo2,ST=markelcademo2,C=es"
+ts=2022-03-01T15:07:23.186177722Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T15:07:23.749034864Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-01T15:10:06.663437959Z level=info caller=enroll.go:31 msg="Enrolling... " with=markelcademo2,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T15:10:09.438636027Z level=info caller=estclient.go:133 msg=markelcademo2
+ts=2022-03-01T15:10:09.505613251Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-01T15:10:09.5058524Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-01T15:10:09.506093298Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-01T15:10:09.50623215Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-01T15:10:09.506273292Z level=info caller=enroll.go:80 msg="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=markelcademo2,O=markelcademo2,L=markelcademo2,ST=markelcademo2,C=es"
+ts=2022-03-01T15:10:14.729346Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T15:10:15.316492095Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-01T15:11:40.240760472Z level=info caller=enroll.go:31 msg="Enrolling... " with=markelcademo2,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T15:11:43.573672604Z level=info caller=estclient.go:133 msg=markelcademo2
+ts=2022-03-01T15:11:43.637073732Z level=error caller=enroll.go:72 err="failed to execute HTTP request: Response with status code: 500"
+ts=2022-03-01T15:12:03.424781338Z level=info caller=enroll.go:31 msg="Enrolling... " with=markelcademo2,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T15:12:04.761454404Z level=info caller=estclient.go:133 msg=markelcademo2
+ts=2022-03-01T15:12:04.818273059Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-01T15:12:04.818328306Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-01T15:12:04.819087451Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-01T15:12:04.819555669Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-01T15:12:04.819653611Z level=info caller=enroll.go:80 msg="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=markelcademo2,O=markelcademo2,L=markelcademo2,ST=markelcademo2,C=es"
+ts=2022-03-01T15:12:10.584860293Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T15:12:11.133263511Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-01T15:13:12.656221966Z level=info caller=enroll.go:31 msg="Enrolling... " with=markelcademo2,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T15:13:18.562716939Z level=info caller=estclient.go:133 msg=markelcademo2
+ts=2022-03-01T15:13:18.6208334Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-01T15:13:18.620872582Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-01T15:13:18.62100581Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-01T15:13:18.621146628Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-01T15:13:18.621198263Z level=info caller=enroll.go:80 msg="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=markelcademo2,O=markelcademo2,L=markelcademo2,ST=markelcademo2,C=es"
+ts=2022-03-01T15:13:18.624872281Z level=info caller=enroll.go:31 msg="Enrolling... " with=markelcademo2,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T15:13:20.141094948Z level=info caller=estclient.go:133 msg=markelcademo2
+ts=2022-03-01T15:13:20.17811128Z level=error caller=enroll.go:72 err="failed to execute HTTP request: Response with status code: 500"
+ts=2022-03-01T15:15:38.864327952Z level=info caller=enroll.go:31 msg="Enrolling... " with=markelcademo2,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T15:15:42.952975542Z level=info caller=estclient.go:133 msg=markelcademo2
+ts=2022-03-01T15:15:43.030167975Z level=error caller=enroll.go:72 err="failed to execute HTTP request: Response with status code: 500"
+ts=2022-03-01T15:16:07.126331143Z level=info caller=enroll.go:31 msg="Enrolling... " with=markelcademo2,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T15:16:11.46819004Z level=info caller=estclient.go:133 msg=markelcademo2
+ts=2022-03-01T15:16:11.527662804Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-01T15:16:11.527715746Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-01T15:16:11.527887889Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-01T15:16:11.528045807Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-01T15:16:11.528090571Z level=info caller=enroll.go:80 msg="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=markelcademo2,O=markelcademo2,L=markelcademo2,ST=markelcademo2,C=es"
+ts=2022-03-01T15:16:15.543583257Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T15:16:16.111535939Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-01T15:16:25.616575622Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T15:16:25.922503797Z level=info caller=aws.go:45 IsConnected=true
+ts=2022-03-01T15:16:25.922604349Z level=info caller=aws.go:48 Messagepublished=true
+ts=2022-03-01T16:25:20.909770286Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T16:25:21.275669529Z level=info caller=aws.go:45 IsConnected=true
+ts=2022-03-01T16:25:21.275864083Z level=info caller=aws.go:48 Messagepublished=true
+ts=2022-03-01T16:25:43.368921518Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T16:25:43.696249172Z level=info caller=aws.go:45 IsConnected=true
+ts=2022-03-01T16:25:43.696372142Z level=info caller=aws.go:48 Messagepublished=true
+ts=2022-03-01T16:26:29.815460571Z level=info caller=enroll.go:30 msg="Enrolling... " with=Lamassu-Root-CA1-RSA4096,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T16:26:32.734647636Z level=info caller=estclient.go:133 msg=Lamassu-Root-CA1-RSA4096
+ts=2022-03-01T16:26:32.808115163Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-01T16:26:32.808175653Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-01T16:26:32.80834171Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-01T16:26:32.808540726Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-01T16:26:32.808592144Z level=info caller=enroll.go:79 msg="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=LKS Next Root CA 1,O=S. Coop+O=LKS Next,L=Arrasate,ST=Gipuzkoa,C=ES"
+ts=2022-03-01T16:26:56.774280189Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T16:26:57.397239036Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-01T16:27:05.544786757Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T16:27:06.144513837Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-01T16:27:38.572282148Z level=info caller=enroll.go:30 msg="Enrolling... " with=markelcademo2,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T16:27:40.607983493Z level=info caller=estclient.go:133 msg=markelcademo2
+ts=2022-03-01T16:27:40.686988127Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-01T16:27:40.687046608Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-01T16:27:40.687185133Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-01T16:27:40.68731781Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-01T16:27:40.687357912Z level=info caller=enroll.go:79 msg="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=markelcademo2,O=markelcademo2,L=markelcademo2,ST=markelcademo2,C=es"
+ts=2022-03-01T16:28:06.123343606Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T16:28:06.768619225Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-01T16:28:16.293893453Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T16:28:16.638158807Z level=info caller=aws.go:45 IsConnected=true
+ts=2022-03-01T16:28:16.638252764Z level=info caller=aws.go:48 Messagepublished=true
+ts=2022-03-01T16:28:20.745400304Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T16:28:21.075532455Z level=info caller=aws.go:45 IsConnected=true
+ts=2022-03-01T16:28:21.075791199Z level=info caller=aws.go:48 Messagepublished=true
+ts=2022-03-01T16:39:10.97193586Z level=info caller=enroll.go:30 msg="Enrolling... " with=markelcademo2,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T16:39:13.394437977Z level=info caller=estclient.go:133 msg=markelcademo2
+ts=2022-03-01T16:39:13.468330952Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-01T16:39:13.468802394Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-01T16:39:13.469182995Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-01T16:39:13.469522368Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-01T16:39:13.469586252Z level=info caller=enroll.go:79 msg="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=markelcademo2,O=markelcademo2,L=markelcademo2,ST=markelcademo2,C=es"
+ts=2022-03-01T16:39:58.022724071Z level=info caller=reenroll.go:26 msg="Re-Enrolling... " with=dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T16:39:58.038299291Z level=info caller=reenroll.go:74 csr="-----BEGIN CERTIFICATE REQUEST-----\nMIIEyDCCArACAQAwgYIxCzAJBgNVBAYTAkVTMREwDwYDVQQIEwhHaXB1emtvYTER\nMA8GA1UEBxMIRG9ub3N0aWExEDAOBgNVBAoTB0lrZXJsYW4xDDAKBgNVBAsTA1pQ\nRDEtMCsGA1UEAxMkOWYwNTFlNDEtMmM3OS00YzBmLWI3OGQtNTc0YTc0MGMwYzAx\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwZawOSQzlmasCR4XQ9RY\naWfw1vH+rr8wb6pna1ylxcPum2NFZG/f0yA9JVbNLqb+ejBQJpjYZ+GrxgEmQx+v\nNyBhx4YBMxpJT/0ykl/8IomL6NnzsgdX567+Mb2eq5CFovs037zH4TDYaXunnpXA\ns9UO+HZmg0OK11o56uTN88oPa/8WKlF0vyaSvcWVGC5XRUK1sexbiVvCNIUkDVzl\nZ7n1EUwNHTv25uGGBsM3R52vhu9r/j4RHsEY3Kl83OPQuTTBuYHEM1WocVeEo9uB\nKvqdgdYYgQ5Gkgszhkc2G1kK3OOsZ57QIMcVVQVD2P4zjSLBKGvarnt0TZn8iHxX\nX5UxPWO8VJVRIPZ8NrzVTsdwAp8rduHj/O2AGJbFfNiluqzgC6qHSS23qt3b9eb8\n50WZ9nA9jHOQVL3fy8pAvMjopo8WRLUgJlwPP8KkPlS7AYnFCo1rk5U5EOvfVQgH\n2CHNGu2ng7Pf+YVWfYWBUV+qTQ5fSl05pB0TUq0WLbsapPNWN4IiHPjUPa+Y+qlW\nGZ7EhPzyuP5YgLavDiYEfet9fNXeZpvqFL9BROPGpFuel1+doetWSUA6MuaVHZQ0\nyBhVnEm54bLJ5SWCR3mDYCrVLFKjBPcb6d/SoghvoMrKWShhtB/Tx4PYGTw02CUD\nmZkS1ZSAFmm3dy29obycrbECAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4ICAQBmhqwn\nUh4Qrtbiw02ATafwhLoTo1EmpMG3S77I/FMUCshgl25PXV23sg0KTfwWYDwlBPxk\ne+wcgV2Rnl8rs6pxhBQDPTafs/q4GpkWbJqbTSwsro953yP0A0HXU6SFQICoBISz\naFOhX/K37Ar1y0mxBCALxTu7po7ABrLneq13xuOkuQ4kUKHjjc6gwHliuxLeYLDx\nsRZABdSS4OR2z4809fqNQNR3jc558+ig+pT50f/o5pdXDJsqYHNtPcxE3+YqGljJ\nVOen2x1cDTmx8ofuWA+dCmSwBeCnifsSBiJyjIvHsoaDjO1lkzi6XXJ9gudLSDb2\nZAt203VIEjqW26GNa9A6sxPBuoCg0/L25WmvD0HhtyPEn1Y4bE1VeI5R+vl0WIN6\n/HCczoicAlT1ebrr9Ehc1N8EHN4rcloe2LOOjSlScUAGX3P9scm7evv4bmEObZW9\nNluBxYkSon5gDtpc58LdAiirrxDuFcNZtnkMSJTmlA7NoWm4nCa8KlIybD+XpGiR\nMOwJJxIL03SteFZ+BX6YblwTblbTizDHNaNlN4JSqw+8b05r9XRXs4Xwuiw9IE0o\nL9TMCye412OGOR2vLxDGtIHaqPUeWNQFinOUeu8tAJDGZ2eT9UPR2Qt1j1fuGtNd\nZI6wbbq2iIGFMJwce2I834J30vfm+PVKIEcvlg==\n-----END CERTIFICATE REQUEST-----\n"
+ts=2022-03-01T16:39:58.660190014Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-01T16:39:58.660225721Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-01T16:39:58.660412245Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-01T16:39:58.66058688Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-01T16:39:58.660636632Z level=info caller=reenroll.go:85 msg=Serial 4054460ce0a13b1fea7d5f98c373ef774f5fcd46="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=markelcademo2,O=markelcademo2,L=markelcademo2,ST=markelcademo2,C=es"
+ts=2022-03-01T16:40:13.406655678Z level=info caller=reenroll.go:26 msg="Re-Enrolling... " with=dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-01T16:40:13.421427186Z level=info caller=reenroll.go:74 csr="-----BEGIN CERTIFICATE REQUEST-----\nMIIEyDCCArACAQAwgYIxCzAJBgNVBAYTAkVTMREwDwYDVQQIEwhHaXB1emtvYTER\nMA8GA1UEBxMIRG9ub3N0aWExEDAOBgNVBAoTB0lrZXJsYW4xDDAKBgNVBAsTA1pQ\nRDEtMCsGA1UEAxMkOWYwNTFlNDEtMmM3OS00YzBmLWI3OGQtNTc0YTc0MGMwYzAx\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwZawOSQzlmasCR4XQ9RY\naWfw1vH+rr8wb6pna1ylxcPum2NFZG/f0yA9JVbNLqb+ejBQJpjYZ+GrxgEmQx+v\nNyBhx4YBMxpJT/0ykl/8IomL6NnzsgdX567+Mb2eq5CFovs037zH4TDYaXunnpXA\ns9UO+HZmg0OK11o56uTN88oPa/8WKlF0vyaSvcWVGC5XRUK1sexbiVvCNIUkDVzl\nZ7n1EUwNHTv25uGGBsM3R52vhu9r/j4RHsEY3Kl83OPQuTTBuYHEM1WocVeEo9uB\nKvqdgdYYgQ5Gkgszhkc2G1kK3OOsZ57QIMcVVQVD2P4zjSLBKGvarnt0TZn8iHxX\nX5UxPWO8VJVRIPZ8NrzVTsdwAp8rduHj/O2AGJbFfNiluqzgC6qHSS23qt3b9eb8\n50WZ9nA9jHOQVL3fy8pAvMjopo8WRLUgJlwPP8KkPlS7AYnFCo1rk5U5EOvfVQgH\n2CHNGu2ng7Pf+YVWfYWBUV+qTQ5fSl05pB0TUq0WLbsapPNWN4IiHPjUPa+Y+qlW\nGZ7EhPzyuP5YgLavDiYEfet9fNXeZpvqFL9BROPGpFuel1+doetWSUA6MuaVHZQ0\nyBhVnEm54bLJ5SWCR3mDYCrVLFKjBPcb6d/SoghvoMrKWShhtB/Tx4PYGTw02CUD\nmZkS1ZSAFmm3dy29obycrbECAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4ICAQBmhqwn\nUh4Qrtbiw02ATafwhLoTo1EmpMG3S77I/FMUCshgl25PXV23sg0KTfwWYDwlBPxk\ne+wcgV2Rnl8rs6pxhBQDPTafs/q4GpkWbJqbTSwsro953yP0A0HXU6SFQICoBISz\naFOhX/K37Ar1y0mxBCALxTu7po7ABrLneq13xuOkuQ4kUKHjjc6gwHliuxLeYLDx\nsRZABdSS4OR2z4809fqNQNR3jc558+ig+pT50f/o5pdXDJsqYHNtPcxE3+YqGljJ\nVOen2x1cDTmx8ofuWA+dCmSwBeCnifsSBiJyjIvHsoaDjO1lkzi6XXJ9gudLSDb2\nZAt203VIEjqW26GNa9A6sxPBuoCg0/L25WmvD0HhtyPEn1Y4bE1VeI5R+vl0WIN6\n/HCczoicAlT1ebrr9Ehc1N8EHN4rcloe2LOOjSlScUAGX3P9scm7evv4bmEObZW9\nNluBxYkSon5gDtpc58LdAiirrxDuFcNZtnkMSJTmlA7NoWm4nCa8KlIybD+XpGiR\nMOwJJxIL03SteFZ+BX6YblwTblbTizDHNaNlN4JSqw+8b05r9XRXs4Xwuiw9IE0o\nL9TMCye412OGOR2vLxDGtIHaqPUeWNQFinOUeu8tAJDGZ2eT9UPR2Qt1j1fuGtNd\nZI6wbbq2iIGFMJwce2I834J30vfm+PVKIEcvlg==\n-----END CERTIFICATE REQUEST-----\n"
+ts=2022-03-01T16:40:14.007847093Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-01T16:40:14.007885972Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-01T16:40:14.008031193Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-01T16:40:14.008183781Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-01T16:40:14.008230668Z level=info caller=reenroll.go:85 msg=Serial 3a77ca42bc095b9e6f1501eae9b4b02705e5e5fa="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=markelcademo2,O=markelcademo2,L=markelcademo2,ST=markelcademo2,C=es"
+ts=2022-03-01T16:42:26.793015094Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T16:42:27.43703913Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-01T16:42:50.085970449Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-01T16:42:50.454837294Z level=info caller=aws.go:45 IsConnected=true
+ts=2022-03-01T16:42:50.454940614Z level=info caller=aws.go:48 Messagepublished=true
+ts=2022-03-02T11:09:48.182869915Z level=info caller=enroll.go:30 msg="Enrolling... " with=demoawsiker,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-02T11:09:53.717184236Z level=info caller=estclient.go:133 msg=demoawsiker
+ts=2022-03-02T11:09:53.821953217Z level=error caller=enroll.go:71 err="failed to execute HTTP request: Response with status code: 500"
+ts=2022-03-02T11:10:24.782527894Z level=info caller=enroll.go:30 msg="Enrolling... " with=demoawsiker,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-02T11:10:27.525692697Z level=info caller=estclient.go:133 msg=demoawsiker
+ts=2022-03-02T11:10:27.589108083Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-02T11:10:27.589158725Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-02T11:10:27.589323811Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-02T11:10:27.58949036Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-02T11:10:27.589524677Z level=info caller=enroll.go:79 msg="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=demoawsiker,O=demoawsiker,L=demoawsiker,ST=demoawsiker,C=demoawsiker"
+ts=2022-03-02T11:10:36.00237443Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-02T11:10:36.545676948Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-02T11:11:57.663948028Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-02T11:11:58.250634344Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-02T11:12:32.271406617Z level=info caller=enroll.go:30 msg="Enrolling... " with=demoawsiker,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-02T11:12:34.972658449Z level=info caller=estclient.go:133 msg=demoawsiker
+ts=2022-03-02T11:12:35.051749614Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-02T11:12:35.051791413Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-02T11:12:35.05197836Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-02T11:12:35.05210686Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-02T11:12:35.052137617Z level=info caller=enroll.go:79 msg="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=demoawsiker,O=demoawsiker,L=demoawsiker,ST=demoawsiker,C=demoawsiker"
+ts=2022-03-02T11:12:40.784077105Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-02T11:12:41.328313767Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-02T11:14:21.414560072Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-02T11:14:21.985312996Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-02T11:18:34.238471308Z level=info caller=enroll.go:30 msg="Enrolling... " with=demoawsiker,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-02T11:18:36.516125987Z level=info caller=estclient.go:133 msg=demoawsiker
+ts=2022-03-02T11:18:36.592426389Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-02T11:18:36.592481842Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-02T11:18:36.592656664Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-02T11:18:36.592812459Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-02T11:18:36.592849616Z level=info caller=enroll.go:79 msg="Certificate content: CN=9f051e41-2c79-4c0f-b78d-574a740c0c01,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=demoawsiker,O=demoawsiker,L=demoawsiker,ST=demoawsiker,C=demoawsiker"
+ts=2022-03-02T11:18:58.293764932Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-02T11:18:58.856702145Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-02T11:24:20.229172905Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-02T11:24:20.787308602Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-02T11:32:24.95501486Z level=info caller=enroll.go:30 msg="Enrolling... " with=demosawsteams,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-02T11:32:26.008767564Z level=info caller=estclient.go:133 msg=demosawsteams
+ts=2022-03-02T11:32:26.078982819Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-02T11:32:26.079019349Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-02T11:32:26.079168968Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-02T11:32:26.079304863Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-02T11:32:26.079349798Z level=info caller=enroll.go:79 msg="Certificate content: CN=demodevice99,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=demosawsteams,O=demosawsteams,L=demosawsteams,ST=demosawsteams,C=demosawsteams"
+ts=2022-03-02T11:32:35.842364966Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-02T11:32:36.402325384Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-02T12:01:25.023308566Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-02T12:01:25.590309031Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-03T07:16:02.864879939Z level=info caller=enroll.go:30 msg="Enrolling... " with=test1,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-03T07:16:03.516629524Z level=info caller=estclient.go:133 msg=test1
+ts=2022-03-03T07:16:03.612198733Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-03T07:16:03.612242369Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-03T07:16:03.612443644Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-03T07:16:03.612573829Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-03T07:16:03.612621856Z level=info caller=enroll.go:79 msg="Certificate content: CN=7df32e97-66d9-44b4-aa28-1b0be61a5ab9,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=a"
+ts=2022-03-03T07:16:10.951480737Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-03T07:16:11.497816079Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-03T07:26:29.444739209Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-03T07:26:30.059517739Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-03T07:27:02.676933249Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-03T07:27:03.211304545Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-03T07:29:51.378740417Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-03T07:29:51.958221706Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-03T07:30:07.319747813Z level=info caller=aws.go:35 AWSendpoint=a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com
+ts=2022-03-03T07:30:07.870950182Z level=info caller=aws.go:40 Tokenerror="network Error : EOF"
+ts=2022-03-03T07:55:40.745364231Z level=info caller=enroll.go:30 msg="Enrolling... " with=test1,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-03T07:55:41.916096728Z level=info caller=estclient.go:133 msg=test1
+ts=2022-03-03T07:55:41.975241772Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-03T07:55:41.975301889Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:41.97548817Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:41.97566741Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:41.97570319Z level=info caller=enroll.go:79 msg="Certificate content: CN=7df32e97-66d9-44b4-aa28-1b0be61a5ab9,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=a"
+ts=2022-03-03T07:55:45.041331903Z level=info caller=reenroll.go:26 msg="Re-Enrolling... " with=dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-03T07:55:45.056167406Z level=info caller=reenroll.go:74 csr="-----BEGIN CERTIFICATE REQUEST-----\nMIIEyDCCArACAQAwgYIxCzAJBgNVBAYTAkVTMREwDwYDVQQIEwhHaXB1emtvYTER\nMA8GA1UEBxMIRG9ub3N0aWExEDAOBgNVBAoTB0lrZXJsYW4xDDAKBgNVBAsTA1pQ\nRDEtMCsGA1UEAxMkN2RmMzJlOTctNjZkOS00NGI0LWFhMjgtMWIwYmU2MWE1YWI5\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0nzvs5yL9xU+KniAQObK\npdzBaZ0D2ba5k+BjfKihtqT5m95h+XWDU/lsrOot9Jzruqqtlnv7QCfbj1oTT99T\nFpk1TznMRQCXazUdVZUl7QkzKNHy6oj7Ln9p6I/GK/2Q4SKhJ24xWgacsuUgqCB5\n+yx+MwRFGMd91O5m02BbJbSS1qVDcFpoQw14c5EbqUJxK/r+YiD1egNvgCvZCGGW\nv7FaUc/N143aPeI0s1HoreTj/ZBeXG0bfpn+lSXCGgL0Oaz662N2Ff/3hxDIK+QW\nKr1qUgQvyjgS5J40yreXwsRwrR/vcDt1MDuqddJayrw2Nn+a5ePVm0b7xGtTQcLX\n1mHOSYrCV6qMVFMWiZeAA8UlzT+yLj2HYx8pivN1qtsZez7P4bKna7FQdnTdNB1E\nR+C/5Utpaqv/ykF4kgPidiG8CJgYta179fQt32r1KPRwPWhJLWQACYbS5Au8HeCZ\nTDJUJOl2KyGKWMUmDdq7hTd/UV2kHmz9gex5UJ9ktK57BltOp91xufjIPtiYUGVG\nq60PH/u8JQG5yDan6mFskTsGAt0zEsHegJtGtC5FLl6MvZElXt+5wwuQ8lmpfRX8\nasIgcF/7bq9PzimHre+SmFxB0oV8s4PGPJfddHsRKR5S5N3xZ0jv4MSLp4NWGor1\nm+6SAdoY07l77f2nNUJ6ntcCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4ICAQB4BRCE\niQyYtB/CPjl14eV7v8tOZxM+tzR1571sA213ciwxWMN/i0B/z8n/rGRSBbT1qUZj\nTppkfKcfnW/uzjZR3RcoS1JHUxfy/VPx7bvjEo8qZXfPZTrDOkNH0cmmYjvdi8GC\nLimqeBGADx5wtxKZtRHgXSlYisFL9nG2ZhyoTZ3ybgVJ62YkY7ApRMvVsDAT4XU7\nEEmUZSBoi3wfOYUtkGsSKmLk/slFyxextNS6cT4JzmBNWNXAf8PKNIGwPxU50G4z\n+APY/De5Eaa8Xw6biFIDND+ddXYy2t/N15GG1aVrwmwIShsHwuWdidjDRQC3n76x\nSOhFhK3FkaTIuoNrVI+zaW7KZWvHvEm4D6g/uGMclJRLSaU9qB6jJFtavU44oDvL\nYPPWmnwd21LbDLnrmScAGyzfMBG/u360v5eAutiw0qfTYw74fRzA+fzBjmYTxG8x\ntBfPxlRSHXS50HgfuI8E8WdsNBbK6B2JZ5ek++ZPNFYU8wmYS73oMwUjYlI0L/3X\nM71Wcz9QqVCnWKLk43FQYeSdUfMzXyzYoqv8ivoP+6bN9GnQum1/Qe4ia062f9en\ntsFip/8fUNi5Kfm2lJTlR2qTCKfg6z9D+09XIT3qbFv2670Po+18GpF7j8kHKLRN\neyb7iDjq/TFf8A8ea58TSQXrrWX1LzY1n7zBcA==\n-----END CERTIFICATE REQUEST-----\n"
+ts=2022-03-03T07:55:45.312174399Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-03T07:55:45.312211868Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:45.312309687Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:45.312461089Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:45.312496208Z level=info caller=reenroll.go:85 msg=Serial 461d68dbad25ebbc7c20dcf8f90b3088f5a1f4c9="Certificate content: CN=7df32e97-66d9-44b4-aa28-1b0be61a5ab9,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=a"
+ts=2022-03-03T07:55:46.378737465Z level=info caller=reenroll.go:26 msg="Re-Enrolling... " with=dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-03T07:55:46.396999785Z level=info caller=reenroll.go:74 csr="-----BEGIN CERTIFICATE REQUEST-----\nMIIEyDCCArACAQAwgYIxCzAJBgNVBAYTAkVTMREwDwYDVQQIEwhHaXB1emtvYTER\nMA8GA1UEBxMIRG9ub3N0aWExEDAOBgNVBAoTB0lrZXJsYW4xDDAKBgNVBAsTA1pQ\nRDEtMCsGA1UEAxMkN2RmMzJlOTctNjZkOS00NGI0LWFhMjgtMWIwYmU2MWE1YWI5\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0nzvs5yL9xU+KniAQObK\npdzBaZ0D2ba5k+BjfKihtqT5m95h+XWDU/lsrOot9Jzruqqtlnv7QCfbj1oTT99T\nFpk1TznMRQCXazUdVZUl7QkzKNHy6oj7Ln9p6I/GK/2Q4SKhJ24xWgacsuUgqCB5\n+yx+MwRFGMd91O5m02BbJbSS1qVDcFpoQw14c5EbqUJxK/r+YiD1egNvgCvZCGGW\nv7FaUc/N143aPeI0s1HoreTj/ZBeXG0bfpn+lSXCGgL0Oaz662N2Ff/3hxDIK+QW\nKr1qUgQvyjgS5J40yreXwsRwrR/vcDt1MDuqddJayrw2Nn+a5ePVm0b7xGtTQcLX\n1mHOSYrCV6qMVFMWiZeAA8UlzT+yLj2HYx8pivN1qtsZez7P4bKna7FQdnTdNB1E\nR+C/5Utpaqv/ykF4kgPidiG8CJgYta179fQt32r1KPRwPWhJLWQACYbS5Au8HeCZ\nTDJUJOl2KyGKWMUmDdq7hTd/UV2kHmz9gex5UJ9ktK57BltOp91xufjIPtiYUGVG\nq60PH/u8JQG5yDan6mFskTsGAt0zEsHegJtGtC5FLl6MvZElXt+5wwuQ8lmpfRX8\nasIgcF/7bq9PzimHre+SmFxB0oV8s4PGPJfddHsRKR5S5N3xZ0jv4MSLp4NWGor1\nm+6SAdoY07l77f2nNUJ6ntcCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4ICAQB4BRCE\niQyYtB/CPjl14eV7v8tOZxM+tzR1571sA213ciwxWMN/i0B/z8n/rGRSBbT1qUZj\nTppkfKcfnW/uzjZR3RcoS1JHUxfy/VPx7bvjEo8qZXfPZTrDOkNH0cmmYjvdi8GC\nLimqeBGADx5wtxKZtRHgXSlYisFL9nG2ZhyoTZ3ybgVJ62YkY7ApRMvVsDAT4XU7\nEEmUZSBoi3wfOYUtkGsSKmLk/slFyxextNS6cT4JzmBNWNXAf8PKNIGwPxU50G4z\n+APY/De5Eaa8Xw6biFIDND+ddXYy2t/N15GG1aVrwmwIShsHwuWdidjDRQC3n76x\nSOhFhK3FkaTIuoNrVI+zaW7KZWvHvEm4D6g/uGMclJRLSaU9qB6jJFtavU44oDvL\nYPPWmnwd21LbDLnrmScAGyzfMBG/u360v5eAutiw0qfTYw74fRzA+fzBjmYTxG8x\ntBfPxlRSHXS50HgfuI8E8WdsNBbK6B2JZ5ek++ZPNFYU8wmYS73oMwUjYlI0L/3X\nM71Wcz9QqVCnWKLk43FQYeSdUfMzXyzYoqv8ivoP+6bN9GnQum1/Qe4ia062f9en\ntsFip/8fUNi5Kfm2lJTlR2qTCKfg6z9D+09XIT3qbFv2670Po+18GpF7j8kHKLRN\neyb7iDjq/TFf8A8ea58TSQXrrWX1LzY1n7zBcA==\n-----END CERTIFICATE REQUEST-----\n"
+ts=2022-03-03T07:55:46.589785009Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-03T07:55:46.589812923Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:46.589895432Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:46.590033001Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:46.590075926Z level=info caller=reenroll.go:85 msg=Serial 4111bee80066e4e8b7cc164f67bd20ce9119244a="Certificate content: CN=7df32e97-66d9-44b4-aa28-1b0be61a5ab9,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=a"
+ts=2022-03-03T07:55:47.782906424Z level=info caller=reenroll.go:26 msg="Re-Enrolling... " with=dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-03T07:55:47.798247241Z level=info caller=reenroll.go:74 csr="-----BEGIN CERTIFICATE REQUEST-----\nMIIEyDCCArACAQAwgYIxCzAJBgNVBAYTAkVTMREwDwYDVQQIEwhHaXB1emtvYTER\nMA8GA1UEBxMIRG9ub3N0aWExEDAOBgNVBAoTB0lrZXJsYW4xDDAKBgNVBAsTA1pQ\nRDEtMCsGA1UEAxMkN2RmMzJlOTctNjZkOS00NGI0LWFhMjgtMWIwYmU2MWE1YWI5\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0nzvs5yL9xU+KniAQObK\npdzBaZ0D2ba5k+BjfKihtqT5m95h+XWDU/lsrOot9Jzruqqtlnv7QCfbj1oTT99T\nFpk1TznMRQCXazUdVZUl7QkzKNHy6oj7Ln9p6I/GK/2Q4SKhJ24xWgacsuUgqCB5\n+yx+MwRFGMd91O5m02BbJbSS1qVDcFpoQw14c5EbqUJxK/r+YiD1egNvgCvZCGGW\nv7FaUc/N143aPeI0s1HoreTj/ZBeXG0bfpn+lSXCGgL0Oaz662N2Ff/3hxDIK+QW\nKr1qUgQvyjgS5J40yreXwsRwrR/vcDt1MDuqddJayrw2Nn+a5ePVm0b7xGtTQcLX\n1mHOSYrCV6qMVFMWiZeAA8UlzT+yLj2HYx8pivN1qtsZez7P4bKna7FQdnTdNB1E\nR+C/5Utpaqv/ykF4kgPidiG8CJgYta179fQt32r1KPRwPWhJLWQACYbS5Au8HeCZ\nTDJUJOl2KyGKWMUmDdq7hTd/UV2kHmz9gex5UJ9ktK57BltOp91xufjIPtiYUGVG\nq60PH/u8JQG5yDan6mFskTsGAt0zEsHegJtGtC5FLl6MvZElXt+5wwuQ8lmpfRX8\nasIgcF/7bq9PzimHre+SmFxB0oV8s4PGPJfddHsRKR5S5N3xZ0jv4MSLp4NWGor1\nm+6SAdoY07l77f2nNUJ6ntcCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4ICAQB4BRCE\niQyYtB/CPjl14eV7v8tOZxM+tzR1571sA213ciwxWMN/i0B/z8n/rGRSBbT1qUZj\nTppkfKcfnW/uzjZR3RcoS1JHUxfy/VPx7bvjEo8qZXfPZTrDOkNH0cmmYjvdi8GC\nLimqeBGADx5wtxKZtRHgXSlYisFL9nG2ZhyoTZ3ybgVJ62YkY7ApRMvVsDAT4XU7\nEEmUZSBoi3wfOYUtkGsSKmLk/slFyxextNS6cT4JzmBNWNXAf8PKNIGwPxU50G4z\n+APY/De5Eaa8Xw6biFIDND+ddXYy2t/N15GG1aVrwmwIShsHwuWdidjDRQC3n76x\nSOhFhK3FkaTIuoNrVI+zaW7KZWvHvEm4D6g/uGMclJRLSaU9qB6jJFtavU44oDvL\nYPPWmnwd21LbDLnrmScAGyzfMBG/u360v5eAutiw0qfTYw74fRzA+fzBjmYTxG8x\ntBfPxlRSHXS50HgfuI8E8WdsNBbK6B2JZ5ek++ZPNFYU8wmYS73oMwUjYlI0L/3X\nM71Wcz9QqVCnWKLk43FQYeSdUfMzXyzYoqv8ivoP+6bN9GnQum1/Qe4ia062f9en\ntsFip/8fUNi5Kfm2lJTlR2qTCKfg6z9D+09XIT3qbFv2670Po+18GpF7j8kHKLRN\neyb7iDjq/TFf8A8ea58TSQXrrWX1LzY1n7zBcA==\n-----END CERTIFICATE REQUEST-----\n"
+ts=2022-03-03T07:55:47.990623553Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-03T07:55:47.990676494Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:47.990804533Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:47.990916606Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:47.991001158Z level=info caller=reenroll.go:85 msg=Serial 68678913ad352cb23e9e9feddfd1013420d82f2d="Certificate content: CN=7df32e97-66d9-44b4-aa28-1b0be61a5ab9,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=a"
+ts=2022-03-03T07:55:48.631672526Z level=info caller=reenroll.go:26 msg="Re-Enrolling... " with=dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-03T07:55:48.646540649Z level=info caller=reenroll.go:74 csr="-----BEGIN CERTIFICATE REQUEST-----\nMIIEyDCCArACAQAwgYIxCzAJBgNVBAYTAkVTMREwDwYDVQQIEwhHaXB1emtvYTER\nMA8GA1UEBxMIRG9ub3N0aWExEDAOBgNVBAoTB0lrZXJsYW4xDDAKBgNVBAsTA1pQ\nRDEtMCsGA1UEAxMkN2RmMzJlOTctNjZkOS00NGI0LWFhMjgtMWIwYmU2MWE1YWI5\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0nzvs5yL9xU+KniAQObK\npdzBaZ0D2ba5k+BjfKihtqT5m95h+XWDU/lsrOot9Jzruqqtlnv7QCfbj1oTT99T\nFpk1TznMRQCXazUdVZUl7QkzKNHy6oj7Ln9p6I/GK/2Q4SKhJ24xWgacsuUgqCB5\n+yx+MwRFGMd91O5m02BbJbSS1qVDcFpoQw14c5EbqUJxK/r+YiD1egNvgCvZCGGW\nv7FaUc/N143aPeI0s1HoreTj/ZBeXG0bfpn+lSXCGgL0Oaz662N2Ff/3hxDIK+QW\nKr1qUgQvyjgS5J40yreXwsRwrR/vcDt1MDuqddJayrw2Nn+a5ePVm0b7xGtTQcLX\n1mHOSYrCV6qMVFMWiZeAA8UlzT+yLj2HYx8pivN1qtsZez7P4bKna7FQdnTdNB1E\nR+C/5Utpaqv/ykF4kgPidiG8CJgYta179fQt32r1KPRwPWhJLWQACYbS5Au8HeCZ\nTDJUJOl2KyGKWMUmDdq7hTd/UV2kHmz9gex5UJ9ktK57BltOp91xufjIPtiYUGVG\nq60PH/u8JQG5yDan6mFskTsGAt0zEsHegJtGtC5FLl6MvZElXt+5wwuQ8lmpfRX8\nasIgcF/7bq9PzimHre+SmFxB0oV8s4PGPJfddHsRKR5S5N3xZ0jv4MSLp4NWGor1\nm+6SAdoY07l77f2nNUJ6ntcCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4ICAQB4BRCE\niQyYtB/CPjl14eV7v8tOZxM+tzR1571sA213ciwxWMN/i0B/z8n/rGRSBbT1qUZj\nTppkfKcfnW/uzjZR3RcoS1JHUxfy/VPx7bvjEo8qZXfPZTrDOkNH0cmmYjvdi8GC\nLimqeBGADx5wtxKZtRHgXSlYisFL9nG2ZhyoTZ3ybgVJ62YkY7ApRMvVsDAT4XU7\nEEmUZSBoi3wfOYUtkGsSKmLk/slFyxextNS6cT4JzmBNWNXAf8PKNIGwPxU50G4z\n+APY/De5Eaa8Xw6biFIDND+ddXYy2t/N15GG1aVrwmwIShsHwuWdidjDRQC3n76x\nSOhFhK3FkaTIuoNrVI+zaW7KZWvHvEm4D6g/uGMclJRLSaU9qB6jJFtavU44oDvL\nYPPWmnwd21LbDLnrmScAGyzfMBG/u360v5eAutiw0qfTYw74fRzA+fzBjmYTxG8x\ntBfPxlRSHXS50HgfuI8E8WdsNBbK6B2JZ5ek++ZPNFYU8wmYS73oMwUjYlI0L/3X\nM71Wcz9QqVCnWKLk43FQYeSdUfMzXyzYoqv8ivoP+6bN9GnQum1/Qe4ia062f9en\ntsFip/8fUNi5Kfm2lJTlR2qTCKfg6z9D+09XIT3qbFv2670Po+18GpF7j8kHKLRN\neyb7iDjq/TFf8A8ea58TSQXrrWX1LzY1n7zBcA==\n-----END CERTIFICATE REQUEST-----\n"
+ts=2022-03-03T07:55:48.834070543Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-03T07:55:48.834115165Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:48.834272495Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:48.834384867Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:48.834430223Z level=info caller=reenroll.go:85 msg=Serial 65a7d31cab07ba662055cc2f86d46ac8301a6037="Certificate content: CN=7df32e97-66d9-44b4-aa28-1b0be61a5ab9,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=a"
+ts=2022-03-03T07:55:49.988007944Z level=info caller=reenroll.go:26 msg="Re-Enrolling... " with=dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-03T07:55:50.004647825Z level=info caller=reenroll.go:74 csr="-----BEGIN CERTIFICATE REQUEST-----\nMIIEyDCCArACAQAwgYIxCzAJBgNVBAYTAkVTMREwDwYDVQQIEwhHaXB1emtvYTER\nMA8GA1UEBxMIRG9ub3N0aWExEDAOBgNVBAoTB0lrZXJsYW4xDDAKBgNVBAsTA1pQ\nRDEtMCsGA1UEAxMkN2RmMzJlOTctNjZkOS00NGI0LWFhMjgtMWIwYmU2MWE1YWI5\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0nzvs5yL9xU+KniAQObK\npdzBaZ0D2ba5k+BjfKihtqT5m95h+XWDU/lsrOot9Jzruqqtlnv7QCfbj1oTT99T\nFpk1TznMRQCXazUdVZUl7QkzKNHy6oj7Ln9p6I/GK/2Q4SKhJ24xWgacsuUgqCB5\n+yx+MwRFGMd91O5m02BbJbSS1qVDcFpoQw14c5EbqUJxK/r+YiD1egNvgCvZCGGW\nv7FaUc/N143aPeI0s1HoreTj/ZBeXG0bfpn+lSXCGgL0Oaz662N2Ff/3hxDIK+QW\nKr1qUgQvyjgS5J40yreXwsRwrR/vcDt1MDuqddJayrw2Nn+a5ePVm0b7xGtTQcLX\n1mHOSYrCV6qMVFMWiZeAA8UlzT+yLj2HYx8pivN1qtsZez7P4bKna7FQdnTdNB1E\nR+C/5Utpaqv/ykF4kgPidiG8CJgYta179fQt32r1KPRwPWhJLWQACYbS5Au8HeCZ\nTDJUJOl2KyGKWMUmDdq7hTd/UV2kHmz9gex5UJ9ktK57BltOp91xufjIPtiYUGVG\nq60PH/u8JQG5yDan6mFskTsGAt0zEsHegJtGtC5FLl6MvZElXt+5wwuQ8lmpfRX8\nasIgcF/7bq9PzimHre+SmFxB0oV8s4PGPJfddHsRKR5S5N3xZ0jv4MSLp4NWGor1\nm+6SAdoY07l77f2nNUJ6ntcCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4ICAQB4BRCE\niQyYtB/CPjl14eV7v8tOZxM+tzR1571sA213ciwxWMN/i0B/z8n/rGRSBbT1qUZj\nTppkfKcfnW/uzjZR3RcoS1JHUxfy/VPx7bvjEo8qZXfPZTrDOkNH0cmmYjvdi8GC\nLimqeBGADx5wtxKZtRHgXSlYisFL9nG2ZhyoTZ3ybgVJ62YkY7ApRMvVsDAT4XU7\nEEmUZSBoi3wfOYUtkGsSKmLk/slFyxextNS6cT4JzmBNWNXAf8PKNIGwPxU50G4z\n+APY/De5Eaa8Xw6biFIDND+ddXYy2t/N15GG1aVrwmwIShsHwuWdidjDRQC3n76x\nSOhFhK3FkaTIuoNrVI+zaW7KZWvHvEm4D6g/uGMclJRLSaU9qB6jJFtavU44oDvL\nYPPWmnwd21LbDLnrmScAGyzfMBG/u360v5eAutiw0qfTYw74fRzA+fzBjmYTxG8x\ntBfPxlRSHXS50HgfuI8E8WdsNBbK6B2JZ5ek++ZPNFYU8wmYS73oMwUjYlI0L/3X\nM71Wcz9QqVCnWKLk43FQYeSdUfMzXyzYoqv8ivoP+6bN9GnQum1/Qe4ia062f9en\ntsFip/8fUNi5Kfm2lJTlR2qTCKfg6z9D+09XIT3qbFv2670Po+18GpF7j8kHKLRN\neyb7iDjq/TFf8A8ea58TSQXrrWX1LzY1n7zBcA==\n-----END CERTIFICATE REQUEST-----\n"
+ts=2022-03-03T07:55:50.202024209Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-03T07:55:50.202060186Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:50.202213883Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:50.202373628Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-03T07:55:50.202431894Z level=info caller=reenroll.go:85 msg=Serial 257630e7fcc07fe75b2812d603f7085ab29b8249="Certificate content: CN=7df32e97-66d9-44b4-aa28-1b0be61a5ab9,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=a"
+ts=2022-03-03T14:49:10.502850717Z level=info caller=enroll.go:30 msg="Enrolling... " with=Lamassu-Root-CA3-ECC384,dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-03T14:49:16.040762928Z level=info caller=estclient.go:133 msg=Lamassu-Root-CA3-ECC384
+ts=2022-03-03T14:49:16.114876683Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-03T14:49:16.114936339Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-03T14:49:16.115685314Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-03T14:49:16.115867606Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-03T14:49:16.115928266Z level=info caller=enroll.go:79 msg="Certificate content: CN=bec1bb6f-7d25-4ea2-aa3f-437f1e6e43c0,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=LKS Next Root CA 3,O=S. Coop+O=LKS Next,L=Arrasate,ST=Gipuzkoa,C=ES"
+ts=2022-03-03T14:49:40.346034867Z level=info caller=reenroll.go:26 msg="Re-Enrolling... " with=dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-03T14:49:40.362201407Z level=info caller=reenroll.go:74 csr="-----BEGIN CERTIFICATE REQUEST-----\nMIIEyDCCArACAQAwgYIxCzAJBgNVBAYTAkVTMREwDwYDVQQIEwhHaXB1emtvYTER\nMA8GA1UEBxMIRG9ub3N0aWExEDAOBgNVBAoTB0lrZXJsYW4xDDAKBgNVBAsTA1pQ\nRDEtMCsGA1UEAxMkYmVjMWJiNmYtN2QyNS00ZWEyLWFhM2YtNDM3ZjFlNmU0M2Mw\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAz1d4VIDNvUeDYSL5j34/\n+kEbrH6Kt44t4qQF5P6R30Q63rd0jPCAE9WayjaJi7QMwkzZh5bPK1n/cknQ6PKi\n91+taalHLymTC1d1hY3+kMalPquVBIG8S2LTq6qV5tkjSp76BSHwP97RhcIf1BNK\nFGJ73FW/A6rVmmBlWgVWjFbz6VLDke28rojyioSVE6maMq+woNAe2hQQF8hHDDyU\nS9R0bFlYS/w1/IW4mBcR/c36/1xpbsIFqnYPUAMiBi8mHQ7GVPRvvqFQ1sF2GGF5\n6Gtvu25CAepzHI+pOuTuh10Z5e69hViinY9QQPwpCyw2xjkIOjudTTSKKwt5aVxk\nUKQtI3PZlHgPhJcWrofcQHlTiSi486Xksjx7TEBJRsRWT4BxR3rmLoT7esD2dC34\n28YtoiUw0h4VHsAJIYWcbmn5GsQi8MpU/aEOHHh4JSab7sKQNGp1NQc4l+hihNDa\n19MSsS1bF4IrjjRyJY/NQpsstu67NHl+RxExHNJYAt94ChiX0ppNr9wwU6nOuOS+\nMYdtfhJBc39pXGzPM/046a+fXiwa9NqVifW3P18f4VOXMHHpZD9N0606ekzrcX4J\nsOL0nzCZBWUjj0sBBHI5aPaQ+Eqn5bls4vCSqVXiLRJG4g/Z33T9SU2UsdL75GYz\nDsserp93+8csWUaixLiSfIMCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4ICAQA8Z87w\nGIafqVLYoOV+CD9jg2B5yXidXwVgxy6iVSmWvFngBkuWv8nza/8NlU1hMrsDjxGI\n58qjz4AtFPWgeZACcBcYTHSLbak4JGkHbQi+6KbAn+1yWRggEznboZyQ3Bj6SouQ\n905CuWTH2L65wTzFOA5VyfYGWBrfFRQDSEP0thjCMtIn3krsh1mnusL12EKdSP5T\na/RoRXxhhno67f2ZJvaelTiyuTAsQ0SqGC+3VQ4KltGuxM9N5wleUo8cXtga7Xzw\n1JhaQ6pQU2oNkjrGX/5nMQaPqbq+qNMleQfCh/iXYGGjeLKMGFD/hlH3eo+bQr95\nom3Rx+GkqRr/L5qEp/C7cM1j8fcG+9CEAfEd9sh0yKwpNH5ktVBSjqkcLBcHyZ7c\n4ZhFOyygyMy0wPvWKsrXFgomyXNHr6iDARdwCBYOP/+/6qSESpRLnCfGncBNoGIp\n2k29MgSXX5FIf/zhzYoADUvY3reTDzEJ/7qAfx0fyAbwgTLL4PdzgEA+mig3imQA\nGkjaX2xgGm+HyToZnhekjhK9QemwsIs1DPPoE3Nwe83OHNzybQtlb0y+sZ6v+19U\nPmjk2SQFOVWD1GMQovEshOc4elNEUV86h4sfJWy1JdftxUQSpnG51RuvE24OrDFC\nUgd5x7683F8x+u81qYyxx+lTo6RY2ON4jJSS6w==\n-----END CERTIFICATE REQUEST-----\n"
+ts=2022-03-03T14:49:40.624990463Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-03T14:49:40.625040005Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-03T14:49:40.625329Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-03T14:49:40.625581945Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-03T14:49:40.625659159Z level=info caller=reenroll.go:85 msg=Serial 7b8327d0c15621727e3a6f7ddf9de2645774be79="Certificate content: CN=bec1bb6f-7d25-4ea2-aa3f-437f1e6e43c0,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=LKS Next Root CA 3,O=S. Coop+O=LKS Next,L=Arrasate,ST=Gipuzkoa,C=ES"
+ts=2022-03-03T14:49:42.990468799Z level=info caller=reenroll.go:26 msg="Re-Enrolling... " with=dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-03T14:49:43.005706837Z level=info caller=reenroll.go:74 csr="-----BEGIN CERTIFICATE REQUEST-----\nMIIEyDCCArACAQAwgYIxCzAJBgNVBAYTAkVTMREwDwYDVQQIEwhHaXB1emtvYTER\nMA8GA1UEBxMIRG9ub3N0aWExEDAOBgNVBAoTB0lrZXJsYW4xDDAKBgNVBAsTA1pQ\nRDEtMCsGA1UEAxMkYmVjMWJiNmYtN2QyNS00ZWEyLWFhM2YtNDM3ZjFlNmU0M2Mw\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAz1d4VIDNvUeDYSL5j34/\n+kEbrH6Kt44t4qQF5P6R30Q63rd0jPCAE9WayjaJi7QMwkzZh5bPK1n/cknQ6PKi\n91+taalHLymTC1d1hY3+kMalPquVBIG8S2LTq6qV5tkjSp76BSHwP97RhcIf1BNK\nFGJ73FW/A6rVmmBlWgVWjFbz6VLDke28rojyioSVE6maMq+woNAe2hQQF8hHDDyU\nS9R0bFlYS/w1/IW4mBcR/c36/1xpbsIFqnYPUAMiBi8mHQ7GVPRvvqFQ1sF2GGF5\n6Gtvu25CAepzHI+pOuTuh10Z5e69hViinY9QQPwpCyw2xjkIOjudTTSKKwt5aVxk\nUKQtI3PZlHgPhJcWrofcQHlTiSi486Xksjx7TEBJRsRWT4BxR3rmLoT7esD2dC34\n28YtoiUw0h4VHsAJIYWcbmn5GsQi8MpU/aEOHHh4JSab7sKQNGp1NQc4l+hihNDa\n19MSsS1bF4IrjjRyJY/NQpsstu67NHl+RxExHNJYAt94ChiX0ppNr9wwU6nOuOS+\nMYdtfhJBc39pXGzPM/046a+fXiwa9NqVifW3P18f4VOXMHHpZD9N0606ekzrcX4J\nsOL0nzCZBWUjj0sBBHI5aPaQ+Eqn5bls4vCSqVXiLRJG4g/Z33T9SU2UsdL75GYz\nDsserp93+8csWUaixLiSfIMCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4ICAQA8Z87w\nGIafqVLYoOV+CD9jg2B5yXidXwVgxy6iVSmWvFngBkuWv8nza/8NlU1hMrsDjxGI\n58qjz4AtFPWgeZACcBcYTHSLbak4JGkHbQi+6KbAn+1yWRggEznboZyQ3Bj6SouQ\n905CuWTH2L65wTzFOA5VyfYGWBrfFRQDSEP0thjCMtIn3krsh1mnusL12EKdSP5T\na/RoRXxhhno67f2ZJvaelTiyuTAsQ0SqGC+3VQ4KltGuxM9N5wleUo8cXtga7Xzw\n1JhaQ6pQU2oNkjrGX/5nMQaPqbq+qNMleQfCh/iXYGGjeLKMGFD/hlH3eo+bQr95\nom3Rx+GkqRr/L5qEp/C7cM1j8fcG+9CEAfEd9sh0yKwpNH5ktVBSjqkcLBcHyZ7c\n4ZhFOyygyMy0wPvWKsrXFgomyXNHr6iDARdwCBYOP/+/6qSESpRLnCfGncBNoGIp\n2k29MgSXX5FIf/zhzYoADUvY3reTDzEJ/7qAfx0fyAbwgTLL4PdzgEA+mig3imQA\nGkjaX2xgGm+HyToZnhekjhK9QemwsIs1DPPoE3Nwe83OHNzybQtlb0y+sZ6v+19U\nPmjk2SQFOVWD1GMQovEshOc4elNEUV86h4sfJWy1JdftxUQSpnG51RuvE24OrDFC\nUgd5x7683F8x+u81qYyxx+lTo6RY2ON4jJSS6w==\n-----END CERTIFICATE REQUEST-----\n"
+ts=2022-03-03T14:49:43.244835285Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-03T14:49:43.244864037Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-03T14:49:43.245056193Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-03T14:49:43.2451855Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-03T14:49:43.245231355Z level=info caller=reenroll.go:85 msg=Serial 7096edca8f326b457f056f485b46c3fc5bfc526b="Certificate content: CN=bec1bb6f-7d25-4ea2-aa3f-437f1e6e43c0,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=LKS Next Root CA 3,O=S. Coop+O=LKS Next,L=Arrasate,ST=Gipuzkoa,C=ES"
+ts=2022-03-03T14:49:44.279938001Z level=info caller=reenroll.go:26 msg="Re-Enrolling... " with=dev-lamassu.zpd.ikerlan.es/api/devmanager
+ts=2022-03-03T14:49:44.294704864Z level=info caller=reenroll.go:74 csr="-----BEGIN CERTIFICATE REQUEST-----\nMIIEyDCCArACAQAwgYIxCzAJBgNVBAYTAkVTMREwDwYDVQQIEwhHaXB1emtvYTER\nMA8GA1UEBxMIRG9ub3N0aWExEDAOBgNVBAoTB0lrZXJsYW4xDDAKBgNVBAsTA1pQ\nRDEtMCsGA1UEAxMkYmVjMWJiNmYtN2QyNS00ZWEyLWFhM2YtNDM3ZjFlNmU0M2Mw\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAz1d4VIDNvUeDYSL5j34/\n+kEbrH6Kt44t4qQF5P6R30Q63rd0jPCAE9WayjaJi7QMwkzZh5bPK1n/cknQ6PKi\n91+taalHLymTC1d1hY3+kMalPquVBIG8S2LTq6qV5tkjSp76BSHwP97RhcIf1BNK\nFGJ73FW/A6rVmmBlWgVWjFbz6VLDke28rojyioSVE6maMq+woNAe2hQQF8hHDDyU\nS9R0bFlYS/w1/IW4mBcR/c36/1xpbsIFqnYPUAMiBi8mHQ7GVPRvvqFQ1sF2GGF5\n6Gtvu25CAepzHI+pOuTuh10Z5e69hViinY9QQPwpCyw2xjkIOjudTTSKKwt5aVxk\nUKQtI3PZlHgPhJcWrofcQHlTiSi486Xksjx7TEBJRsRWT4BxR3rmLoT7esD2dC34\n28YtoiUw0h4VHsAJIYWcbmn5GsQi8MpU/aEOHHh4JSab7sKQNGp1NQc4l+hihNDa\n19MSsS1bF4IrjjRyJY/NQpsstu67NHl+RxExHNJYAt94ChiX0ppNr9wwU6nOuOS+\nMYdtfhJBc39pXGzPM/046a+fXiwa9NqVifW3P18f4VOXMHHpZD9N0606ekzrcX4J\nsOL0nzCZBWUjj0sBBHI5aPaQ+Eqn5bls4vCSqVXiLRJG4g/Z33T9SU2UsdL75GYz\nDsserp93+8csWUaixLiSfIMCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4ICAQA8Z87w\nGIafqVLYoOV+CD9jg2B5yXidXwVgxy6iVSmWvFngBkuWv8nza/8NlU1hMrsDjxGI\n58qjz4AtFPWgeZACcBcYTHSLbak4JGkHbQi+6KbAn+1yWRggEznboZyQ3Bj6SouQ\n905CuWTH2L65wTzFOA5VyfYGWBrfFRQDSEP0thjCMtIn3krsh1mnusL12EKdSP5T\na/RoRXxhhno67f2ZJvaelTiyuTAsQ0SqGC+3VQ4KltGuxM9N5wleUo8cXtga7Xzw\n1JhaQ6pQU2oNkjrGX/5nMQaPqbq+qNMleQfCh/iXYGGjeLKMGFD/hlH3eo+bQr95\nom3Rx+GkqRr/L5qEp/C7cM1j8fcG+9CEAfEd9sh0yKwpNH5ktVBSjqkcLBcHyZ7c\n4ZhFOyygyMy0wPvWKsrXFgomyXNHr6iDARdwCBYOP/+/6qSESpRLnCfGncBNoGIp\n2k29MgSXX5FIf/zhzYoADUvY3reTDzEJ/7qAfx0fyAbwgTLL4PdzgEA+mig3imQA\nGkjaX2xgGm+HyToZnhekjhK9QemwsIs1DPPoE3Nwe83OHNzybQtlb0y+sZ6v+19U\nPmjk2SQFOVWD1GMQovEshOc4elNEUV86h4sfJWy1JdftxUQSpnG51RuvE24OrDFC\nUgd5x7683F8x+u81qYyxx+lTo6RY2ON4jJSS6w==\n-----END CERTIFICATE REQUEST-----\n"
+ts=2022-03-03T14:49:44.527240392Z level=info caller=certificate_observer.go:44 msg="Obserer notify... 3"
+ts=2022-03-03T14:49:44.527266436Z level=info caller=decoded_cert_view.go:34 Observerupdated="unsupported value type"
+ts=2022-03-03T14:49:44.527367605Z level=info caller=raw_cert_view.go:29 Observerupdated="unsupported value type"
+ts=2022-03-03T14:49:44.527506663Z level=info caller=historical_cert_view.go:31 Observerupdated="unsupported value type"
+ts=2022-03-03T14:49:44.527559996Z level=info caller=reenroll.go:85 msg=Serial 5b280f572e85be6901f072427c7be9a48e3a1be7="Certificate content: CN=bec1bb6f-7d25-4ea2-aa3f-437f1e6e43c0,OU=ZPD,O=Ikerlan,L=Donostia,ST=Gipuzkoa,C=ES Issuer: CN=LKS Next Root CA 3,O=S. Coop+O=LKS Next,L=Arrasate,ST=Gipuzkoa,C=ES"
