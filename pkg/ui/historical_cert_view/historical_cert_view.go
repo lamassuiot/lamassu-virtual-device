@@ -1,9 +1,7 @@
 package historicalcertview
 
 import (
-	"bytes"
 	"crypto/x509"
-	"fmt"
 	"strings"
 
 	"github.com/go-kit/log"
@@ -21,35 +19,37 @@ type concreteObserver struct {
 }
 
 var (
-	view                     *tview.TextView
-	logger                   *log.Logger
-	historical_serials_certs []string
+	view   *tview.TextView
+	app    *tview.Application
+	logger *log.Logger
 )
 
 func (s *concreteObserver) Update(t interface{}) {
-	// do something
 	level.Info(*logger).Log("Observer updated", t)
-	view = DrawView(t.(*observer.DeviceState).Cert)
+	view = DrawView(t.(*observer.DeviceState).Cert, t.(*observer.DeviceState))
 }
 
-func DrawView(cert *x509.Certificate) *tview.TextView {
-	if bytes.Compare(cert.Raw, []byte{}) != 0 {
-		historical_serials_certs = append(historical_serials_certs, fmt.Sprintf("%x", cert.SerialNumber))
-	}
+func DrawView(cert *x509.Certificate, deviceData *observer.DeviceState) *tview.TextView {
 
-	inverted_order := historical_serials_certs
-	for i, j := 0, len(inverted_order)-1; i < j; i, j = i+1, j-1 {
-		inverted_order[i], inverted_order[j] = inverted_order[j], inverted_order[i]
-	}
-
-	view.SetText(strings.Join(inverted_order, "\n"))
+	view.SetText(strings.Join(deviceData.SN, "\n"))
 	view.SetBorder(true).SetBorderPadding(0, 0, 1, 1)
 
 	return view
 }
 
-func GetHistoricalCertItem(inlogger log.Logger, deviceData *observer.DeviceState) tview.Primitive {
+func ClearView() *tview.TextView {
+	view = tview.NewTextView()
+	view.SetTitle("Historical Serial Numbers3")
+
+	view.SetBorder(true).SetBorderPadding(0, 0, 1, 1)
+
+	return view
+}
+
+func GetHistoricalCertItem(inlogger log.Logger, deviceData *observer.DeviceState, inapp *tview.Application) tview.Primitive {
 	logger = &inlogger
+
+	app = inapp
 
 	view = tview.NewTextView()
 	view.SetTitle("Historical Serial Numbers")
@@ -57,5 +57,5 @@ func GetHistoricalCertItem(inlogger log.Logger, deviceData *observer.DeviceState
 	concreteObserver := &concreteObserver{}
 	deviceData.Attach(concreteObserver)
 
-	return DrawView(deviceData.Cert)
+	return DrawView(deviceData.Cert, deviceData)
 }

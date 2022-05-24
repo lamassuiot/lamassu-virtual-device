@@ -6,13 +6,15 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 	"encoding/pem"
-	"fmt"
+
+	//"fmt"
 	"strconv"
 
 	"github.com/gdamore/tcell/v2"
 	"github.com/go-kit/log"
 	"github.com/go-kit/log/level"
 	"github.com/lamassuiot/lamassu-virtual-device/pkg/observer"
+	"github.com/lamassuiot/lamassu-virtual-device/pkg/utils"
 	"github.com/rivo/tview"
 )
 
@@ -40,7 +42,7 @@ func DrawGrid(cert *x509.Certificate) *tview.Grid {
 	_, _, keyBits, _ := GetPublicKeyInfo(*cert)
 
 	grid.AddItem(tview.NewTextView().SetText("Serial Number").SetTextColor(tcell.ColorYellow), 0, 0, 1, 1, 0, 0, false)
-	grid.AddItem(tview.NewTextView().SetText(fmt.Sprintf("%x", cert.SerialNumber)), 0, 1, 1, 1, 0, 0, false)
+	grid.AddItem(tview.NewTextView().SetText(utils.InsertNth(utils.ToHexInt(cert.SerialNumber), 2)), 0, 1, 1, 1, 0, 0, false)
 
 	grid.AddItem(tview.NewTextView().SetText("Certificate Subject").SetTextColor(tcell.ColorYellow), 1, 0, 1, 1, 0, 0, false)
 	grid.AddItem(tview.NewTextView().SetText(cert.Subject.String()), 1, 1, 1, 1, 0, 0, false)

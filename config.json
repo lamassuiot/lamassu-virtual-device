@@ -1,22 +1,12 @@
 {
-    "device":{
-        "id": "bec1bb6f-7d25-4ea2-aa3f-437f1e6e43c0",
-        "alias": "Smart Thing Ikerlan",
-        "enrolling_properties": {
-            "subject": {
-                "country": "ES",
-                "state": "Gipuzkoa",
-                "locality": "Donostia",
-                "organization": "Ikerlan",
-                "organization_unit": "ZPD"
-            }
-        }
-    },
-    "dms": {
-        "est_server": "dev-lamassu.zpd.ikerlan.es/api/devmanager"
+    "certificates_dir": "/home/$USER/virtual-dms-data/devices_certificates",
+    "devmanager": {
+        "est_server": "dev.lamassu.io/api/devmanager",
+        "cert":"<DEVMANAGER_CERT>"
     },
     "aws":{
-        "iot_core_endpoint": "a3hczhtwc7h4es-ats.iot.eu-west-1.amazonaws.com",
-        "test_lambda": "lamassu_iot_core_test"
+        "iot_core_ca_file": "<AWS_CA_CERT>",
+        "iot_core_endpoint": "<AWS_ENDPOINT>",
+        "test_lambda": "<LAMBDA>"
     }
 }

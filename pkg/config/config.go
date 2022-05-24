@@ -5,26 +5,25 @@ import (
 	"os"
 )
 
+type PrivateKeyMetadata struct {
+	KeyType string `json:"type"`
+	KeyBits int    `json:"bits"`
+}
+type PrivateKeyMetadataWithStregth struct {
+	KeyType     string `json:"type"`
+	KeyBits     int    `json:"bits"`
+	KeyStrength string `json:"strength"`
+}
 type Config struct {
-	Device struct {
-		Id                  string `json:"id"`
-		Alias               string `json:"alias"`
-		EnrollingProperties struct {
-			Subject struct {
-				Country            string `json:"country"`
-				State              string `json:"state"`
-				Locality           string `json:"locality"`
-				Organization       string `json:"organization"`
-				OrganizationalUnit string `json:"organization_unit"`
-			} `json:"subject"`
-		} `json:"enrolling_properties"`
-	} `json:"device"`
-	Dms struct {
-		DmsEstServer string `json:"est_server"`
-	} `json:"dms"`
+	CertificatesDirectory string `json:"certificates_dir"`
+	Devmanager            struct {
+		EstServer string `json:"est_server"`
+		Cert      string `json:"cert"`
+	} `json:"devmanager"`
 	Aws struct {
-		IotCoreEndpoint string `json:"iot_core_endpoint"`
-		TestLambda      string `json:"test_lambda"`
+		IotCoreEndpointCACertFile string `json:"iot_core_ca_file"`
+		IotCoreEndpoint           string `json:"iot_core_endpoint"`
+		TestLambda                string `json:"test_lambda"`
 	} `json:"aws"`
 }
 

@@ -12,10 +12,17 @@ import (
 
 type DeviceState struct {
 	// internal state
-	Cert   *x509.Certificate
-	Config config.Config
-
-	observers []Observer
+	Cert                  *x509.Certificate
+	Config                config.Config
+	PathCertificate       string
+	PathKey               string
+	CSR                   string
+	PathDevicesFolder     string
+	PathDevicesCertFolder string
+	AwsEndpoint           string
+	AwsEndpointCAFile     string
+	SN                    []string
+	observers             []Observer
 }
 
 func (s *DeviceState) Attach(o Observer) (bool, error) {
@@ -51,4 +58,36 @@ func (s *DeviceState) Notify(logger log.Logger) (bool, error) {
 func (s *DeviceState) SetCertificate(cert *x509.Certificate, logger log.Logger) {
 	s.Cert = cert
 	s.Notify(logger)
+}
+func (s *DeviceState) SetSN(sn string, logger log.Logger) {
+	s.SN = append(s.SN, sn)
+	s.Notify(logger)
+}
+
+func (s *DeviceState) SetAwsEndpoint(path string, logger log.Logger) {
+	s.AwsEndpoint = path
+	s.Notify(logger)
+}
+
+func (s *DeviceState) SetPath(cert string, key string, csr string, logger log.Logger) {
+	s.PathCertificate = cert
+	s.PathKey = key
+	s.CSR = csr
+	s.Notify(logger)
+}
+
+func (s *DeviceState) SetPathDevicesFolder(path string, logger log.Logger) {
+	s.PathDevicesFolder = path
+	s.Notify(logger)
+}
+func (s *DeviceState) SetPathDevicesCertFolder(path string, logger log.Logger) {
+	s.PathDevicesCertFolder = path
+	s.Notify(logger)
+}
+func (s *DeviceState) ClearSN(logger log.Logger) {
+	s.SN = []string{}
+	s.Notify(logger)
+}
+func (s *DeviceState) GetPathCert(log.Logger) string {
+	return s.PathCertificate
 }
