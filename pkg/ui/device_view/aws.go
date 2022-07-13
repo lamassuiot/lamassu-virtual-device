@@ -120,7 +120,7 @@ func ConnectButton(obs *observer.DeviceState) *tview.Form {
 				if token := c.Connect(); token.Wait() && token.Error() != nil {
 					level.Info(*logger).Log("Token error", token.Error())
 					addMqttLog("Error while connecting to IoT Core. Retrying ...", tcell.ColorYellow)
-					time.Sleep(5 * time.Second)
+					time.Sleep(10 * time.Second)
 					if token := c.Connect(); token.Wait() && token.Error() != nil {
 						level.Info(*logger).Log("Token error", token.Error())
 						addMqttLog("Error while connecting to IoT Core. Desisting ...", tcell.ColorRed)

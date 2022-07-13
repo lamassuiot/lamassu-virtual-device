@@ -1,0 +1,12 @@
+{
+    "certificates_dir": "/app/device-certificates/",
+    "devmanager": {
+        "est_server": "$VDEV_EST_SERVER_URL",
+        "cert":"/app/downstream/tls.crt"
+    },
+    "aws":{
+        "iot_core_ca_file": "/app/aws-iot-ca.crt",
+        "iot_core_endpoint": "$VDEV_AWS_IOT_CORE_ENDPOINT",
+        "test_lambda": "lamassu_iot_core_test"
+    }
+}

@@ -7,6 +7,7 @@ import (
 	//"encoding/base64"
 
 	"crypto/x509"
+	"encoding/json"
 	"os"
 
 	"github.com/go-kit/log"
@@ -33,7 +34,13 @@ func main() {
 		logger = log.With(logger, "caller", log.DefaultCaller)
 	}
 
-	cfg, _ := config.NewConfig()
+	cfg, err := config.NewConfig()
+	if err != nil {
+		panic(err)
+	}
+
+	bytesCfg, _ := json.Marshal(cfg)
+	level.Info(logger).Log("msg", string(bytesCfg))
 
 	obs := observer.DeviceState{
 		Cert:                  &x509.Certificate{},

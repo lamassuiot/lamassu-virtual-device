@@ -26,6 +26,7 @@ func DrawCertDropDown(app *tview.Application, obs *observer.DeviceState, logger 
 			form.AddDropDown("Device ID", getDeviceIds(obs.PathDevicesFolder), 0, func(option string, optionIndex int) {
 				if len(option) > 0 && optionIndex > 0 {
 					obs.ClearSN(logger)
+					level.Info(logger).Log("msg", option)
 					name := strings.Split(option, "-")
 					id := name[len(name)-5] + "-" + name[len(name)-4] + "-" + name[len(name)-3] + "-" + name[len(name)-2] + "-" + name[len(name)-1]
 					deviceCertificateFolder = obs.PathDevicesFolder + option + "/certificates/"
@@ -68,6 +69,7 @@ func DrawCertDropDown(app *tview.Application, obs *observer.DeviceState, logger 
 		AddDropDown("Device ID", getDeviceIds(obs.PathDevicesFolder), 0, func(option string, optionIndex int) {
 			if len(option) > 0 && optionIndex > 0 {
 				obs.ClearSN(logger)
+				level.Info(logger).Log("msg", option)
 				name := strings.Split(option, "-")
 				id := name[len(name)-5] + "-" + name[len(name)-4] + "-" + name[len(name)-3] + "-" + name[len(name)-2] + "-" + name[len(name)-1]
 				deviceCertificateFolder = obs.PathDevicesFolder + option + "/certificates/"
